@@ -69,5 +69,7 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 
 <img src="reports/parcelas_por_estado.png">
 
-4. De forma geral, as vendas cresceram ao longo dos dois anos, atingindo seu ápice em novembro de 2017, provavelmente por conta da black friday.
+4. De forma geral, as vendas cresceram ao longo dos dois anos, atingindo seu ápice em novembro de 2017, provavelmente por conta da black friday. Ademais, é possível perceber que após esse pico em 2017, as vendas tendem a se manter em um número elevado em relação a anos anteriores.
+
+<img src="reports/vendas_mensal.png">
 
