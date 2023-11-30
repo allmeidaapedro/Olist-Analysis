@@ -39,6 +39,8 @@ As seguintes perguntas de negócio foram formuladas por mim e respondidas, com o
 21. Quais regiões do país apresentam o maior tempo médio de entrega, e o menor? E quanto aos estados?
 22. Existe alguma correlação entre o valor pago em um pedido e o número de parcelas escolhido para o pagamento?
 
+Para acessar a resposta de todas as perguntas de negócio elaboradas, basta checar o notebook: https://github.com/allmeidaapedro/Olist-Analysis/blob/main/eda.ipynb
+
 # 4. Planejamento da solução
 O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 
@@ -55,7 +57,7 @@ A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomad
 
 1. Em 90% dos pedidos, apenas um item é comprado. A Olist deve trabalhar para aumentar esse número.
 
-2. O valor médio pago por pedido é de aproximadamente 160 reais. Ademais, 50% dos pedidos custaram entre 62 e 176 reais.
+2. O valor médio pago por pedido é de aproximadamente 160 reais. Ademais, com base no IQR 50% dos pedidos custaram entre 62 e 176 reais. É possível perceber que os valores pagos seguem uma distribuição assimétrica à direita, contendo vários outliers. Entretanto, estes foram investigados e não representam informação inconsistente, portanto, permaneceram na análise.
 
 <img src="reports/valor_pedido.png">
 
