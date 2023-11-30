@@ -49,7 +49,7 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 5. Análise exploratória de dados.
 6. Conclusão.
 
-A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomada, encontra-se no notebook: <a href="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/eda.ipynb"> 
+A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomada, encontra-se no notebook: https://github.com/allmeidaapedro/Olist-Analysis/blob/main/eda.ipynb
 
 # 5. Principais insights de negócio
 
@@ -100,7 +100,56 @@ A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomad
 - Finalmente, por se tratar de dados reais e um contexto real de uma empresa, o aprendizado foi enorme.
 
 # 7. Execute o projeto na sua máquina
+Para <b>executar os notebooks localmente</b>, certifique-se de ter instalado:
 
+Python 3.11.4
+pip (Gerenciador de pacotes Python)
+Git (Ferramenta de controle de versão)
+Jupyter (Executar os notebooks)
+
+Depois de ter isso instalado, abra um terminal em sua máquina local e execute os seguintes comandos:
+
+Clone o repositório:
+<pre>
+git clone https://github.com/allmeidaapedro/Olist-Analysis.git
+</pre>
+Navegue até o diretório do repositório clonado:
+<pre>
+cd Olist-Analyss
+</pre>
+Crie um ambiente virtual:
+<pre>
+python -m venv venv
+</pre>
+Ative o Ambiente Virtual:
+Ative o ambiente virtual usado para isolar as dependências do projeto.
+
+<pre>
+source venv/bin/activate  # No Windows, use 'venv\Scripts\activate'
+</pre>
+Instale as Dependências:
+Use o pip para instalar as dependências necessárias listadas no arquivo requirements.txt.
+
+<pre>
+pip install -r requirements.txt
+</pre>
+Inicie o Jupyter Notebook:
+Para iniciar o Jupyter Notebook, execute o seguinte comando:
+
+<pre>
+jupyter notebook
+</pre>
+Isso abrirá uma nova aba ou janela em seu navegador da web com a interface do Jupyter Notebook.
+
+Abra e execute o Notebook em que foi feita a análise:
+Você deverá ver o Notebook 'eda.ipynb'. Clique no notebook para abri-lo. Uma vez aberto, você pode executar células individuais ou o notebook inteiro clicando no botão "Run".
+
+Desative o Ambiente Virtual (Opcional):
+Quando terminar de trabalhar com o notebook e quiser sair do ambiente virtual, você pode desativá-lo usando o seguinte comando:
+
+<pre>
+deactivate
+</pre>
 
 # 8. Dados utilizados
 Os dados foram obtidos do kaggle, no link: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_customers_dataset.csv
