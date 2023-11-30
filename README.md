@@ -57,9 +57,6 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 
 <img src="reports/pedidos_por_cidade.png">
 
-<img src="reports/clientes_por_estado.png">
-
-<img src="reports/vendedores_por_estado.png">
 
 2. Entre os itens mais vendidos, estão produtos para a casa e móveis, produtos de cama, mesa e banho, e produtos para beleza e saúde.
 
