@@ -1,6 +1,6 @@
 # Análise Exploratória de Dados da Olist
 
-<img src="reports/logo1.png">
+<img src="reports/logo2.png">
 
 # 1. Descrição
 - Neste projeto, realizarei uma análise exploratória de dados de um e-commerce brasileiro, a Olist. Algumas perguntas de negócio serão formuladas e respondidas através de técnicas de coleta, limpeza, exploração e visualização de dados.
