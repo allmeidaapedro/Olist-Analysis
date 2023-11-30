@@ -87,7 +87,7 @@ A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomad
 
 <img src="reports/vendas_semana.png">
 
-9. Estados das regiões norte e nordeste pagam, em média, o maior frete por pedido. Especialmente, o frete pago na região norte é duas vezes maior que o frete pago na região sudeste (menor de todos). Da mesma forma, pedidos feitos nesses estados demoram, em média, mais de duas vezes o número de dias para serem entregues em relação a estados do sul e sudeste. Isso ocorre pois, a grande maioria dos vendedores concentram-se no estado de São Paulo e nos grandes centros.
+9. Estados das regiões norte e nordeste pagam, em média, o maior frete por pedido. Especialmente, o frete pago na região norte é duas vezes maior que o frete pago na região sudeste (menor de todos). Da mesma forma, pedidos feitos nesses estados demoram, em média, mais de duas vezes o número de dias para serem entregues em relação a estados do sul e sudeste. Isso ocorre pois, a grande maioria dos vendedores concentra-se no estado de São Paulo e nos grandes centros.
 
 <img src="reports/entrega_regiao.png">
 
