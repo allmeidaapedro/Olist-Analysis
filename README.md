@@ -70,3 +70,12 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 
 <img src="reports/vendas_mensal.png">
 
+5. Durante um dia, a maioria dos pedidos é feita entre 10h e 16h. Especialmente, as vendas diárias atingem um pico em volta das 11h e das 16h.
+
+<img src="reports/vendas_dia.png">
+
+6. As vendas tendem a decrescer com o passar da semana. Segunda-feira é o dia com o maior número de pedidos, enquanto sábado é o dia com o menor número.
+
+<img src="reports/vendas_semana.png">
+
+7. Estados das regiões norte e nordeste pagam, em média, o maior frete por pedido. Especialmente, o frete pago na região norte é duas vezes maior que o frete pago na região sudeste (menor de todos). Da mesma forma, pedidos feitos nesses estados demoram, em média, mais de duas vezes o número de dias para serem entregues em relação a estados do sul e sudeste. Isso ocorre pois, a grande maioria dos vendedores concentram-se no estado de São Paulo e nos grandes centros.
