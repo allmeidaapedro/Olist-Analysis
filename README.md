@@ -57,7 +57,7 @@ A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomad
 
 1. Em 90% dos pedidos, apenas um item é comprado. A Olist deve trabalhar para aumentar esse número.
 
-2. O valor médio pago por pedido é de aproximadamente 160 reais. Ademais, com base no IQR 50% dos pedidos custaram entre 62 e 176 reais. É possível perceber que os valores pagos seguem uma distribuição assimétrica à direita, contendo vários outliers. Entretanto, estes foram investigados e não representam informação inconsistente, portanto, permaneceram na análise.
+2. O valor médio pago por pedido é de aproximadamente 160 reais. Ademais, com base no IQR, 50% dos pedidos custaram entre 62 e 176 reais. É possível perceber que os valores pagos seguem uma distribuição assimétrica à direita, contendo vários outliers. Entretanto, estes foram investigados e não representam informação inconsistente, portanto, permaneceram na análise.
 
 <img src="reports/valor_pedido.png">
 
