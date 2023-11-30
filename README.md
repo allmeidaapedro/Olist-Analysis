@@ -1,14 +1,14 @@
 # Análise Exploratória de Dados da Olist
 
-<img src="reports/logo.png">
+<img src="reports/logo1.png">
 
 # 1. Descrição
 - Neste projeto, realizarei uma análise exploratória de dados de um e-commerce brasileiro, a Olist. Algumas perguntas de negócio serão formuladas e respondidas através de técnicas de coleta, limpeza, exploração e visualização de dados.
 - Este é um conjunto de dados público de comércio eletrônico brasileiro de pedidos feitos na Olist Store. O conjunto de dados contém informações de 100 mil pedidos de 2016 a 2018 feitos em vários marketplaces no Brasil. Suas características permitem visualizar um pedido a partir de várias dimensões: desde o status do pedido, preço, desempenho de pagamento e frete até a localização do cliente, atributos do produto e, finalmente, análises escritas pelos clientes. Também foi lançado um conjunto de dados de geolocalização que relaciona os códigos postais brasileiros a coordenadas de latitude/longitude.
 - Este conjunto de dados foi generosamente fornecido pela Olist, a maior loja de departamentos nos marketplaces brasileiros. A Olist conecta pequenas empresas de todo o Brasil a canais sem complicações e com um único contrato. Esses comerciantes podem vender seus produtos através da Olist Store e enviá-los diretamente para os clientes usando os parceiros logísticos da Olist. Saiba mais em seu site: www.olist.com
 - Após um cliente comprar o produto da Olist Store, um vendedor é notificado para atender ao pedido. Assim que o cliente recebe o produto, ou a data de entrega estimada expira, o cliente recebe uma pesquisa de satisfação por e-mail, onde pode atribuir uma nota para a experiência de compra e escrever alguns comentários.
+- Abaixo, tem-se o schema do banco de dados, utilizado para unir datasets e obter os dados necessários para responder as perguntas de negócio.
 
-Schema do banco de dados.
 <img src="reports/schemaOlist.png">
 
 # 2. Tecnologias utilizadas
@@ -53,32 +53,21 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 
 1. Estados das regiões sul e sudeste concentram os maiores números de pedidos, clientes e vendedores. Em especial, o estado de São Paulo e a sua capital apresentam valores maiores que todos os outros. Enquanto isso, estados das regiões norte e nordeste apresentam os menores indicadores.
 
-Número de pedidos por estado.
 <img src="reports/pedidos_por_estado.png">
 
-Número de pedidos por cidade.
 <img src="reports/pedidos_por_cidade.png">
 
-Número de clientes por estado.
 <img src="reports/clientes_por_estado.png">
 
-Número de vendedores por estado.
 <img src="reports/vendedores_por_estado.png">
 
 2. Entre os itens mais vendidos, estão produtos para a casa e móveis, produtos de cama, mesa e banho, e produtos para beleza e saúde.
 
-Top 10 itens mais vendidos.
 <img src="reports/itens_mais_vendidos.png">
 
 3. Clientes das regiões norte e nordeste tendem a dividir o pagamento em um maior número de parcelas por pedido (em média), enquanto clientes das regiões sul e sudeste apresentam um menor número. Isso faz sentido, uma vez que tais regiões possuem os piores indicadores de renda do país.
 
-Número de parcelas, em média, por estado.
 <img src="reports/parcelas_por_estado.png">
 
 4. De forma geral, as vendas cresceram ao longo dos dois anos, atingindo seu ápice em novembro de 2017, provavelmente por conta da black friday.
 
-Evolução mensal das vendas ao longo do tempo.
-
-
-
-5. Durante um dia, a maioria dos pedidos é feita entre 10h e 16h.
