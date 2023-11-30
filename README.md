@@ -49,33 +49,65 @@ O seguinte passo a passo foi seguido, baseado no framework CRISP-DM
 5. Análise exploratória de dados.
 6. Conclusão.
 
-# Principais insights de negócio
+A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomada, encontra-se no notebook: <a href="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/eda.ipynb"> 
 
-1. Estados das regiões sul e sudeste concentram os maiores números de pedidos, clientes e vendedores. Em especial, o estado de São Paulo e a sua capital apresentam valores maiores que todos os outros. Enquanto isso, estados das regiões norte e nordeste apresentam os menores indicadores.
+# 5. Principais insights de negócio
+
+1. Em 90% dos pedidos, apenas um item é comprado. A Olist deve trabalhar para aumentar esse número.
+
+2. O valor médio pago por pedido é de aproximadamente 160 reais. Ademais, 50% dos pedidos custaram entre 62 e 176 reais.
+
+<img src="reports/valor_pedido.png">
+
+3. Estados das regiões sul e sudeste concentram os maiores números de pedidos, clientes e vendedores. Em especial, o estado de São Paulo e a sua capital apresentam valores maiores que todos os outros. Enquanto isso, estados das regiões norte e nordeste apresentam os menores indicadores.
 
 <img src="reports/pedidos_por_estado.png">
 
 <img src="reports/pedidos_por_cidade.png">
 
-
-2. Entre os itens mais vendidos, estão produtos para a casa e móveis, produtos de cama, mesa e banho, e produtos para beleza e saúde.
+4. Entre os itens mais vendidos, estão produtos para a casa e móveis, produtos de cama, mesa e banho, e produtos para beleza e saúde.
 
 <img src="reports/itens_mais_vendidos.png">
 
-3. Clientes das regiões norte e nordeste tendem a dividir o pagamento em um maior número de parcelas por pedido (em média), enquanto clientes das regiões sul e sudeste apresentam um menor número. Isso faz sentido, uma vez que tais regiões possuem os piores indicadores de renda do país.
+5. Clientes das regiões norte e nordeste tendem a dividir o pagamento em um maior número de parcelas por pedido (em média), enquanto clientes das regiões sul e sudeste apresentam um menor número. Isso faz sentido, uma vez que tais regiões possuem os piores indicadores de renda do país.
 
 <img src="reports/parcelas_por_estado.png">
 
-4. De forma geral, as vendas cresceram ao longo dos dois anos, atingindo seu ápice em novembro de 2017, provavelmente por conta da black friday. Ademais, é possível perceber que após esse pico em 2017, as vendas tendem a se manter em um número elevado em relação a anos anteriores.
+6. De forma geral, as vendas cresceram ao longo dos dois anos, atingindo seu ápice em novembro de 2017, provavelmente por conta da black friday. Ademais, é possível perceber que após esse pico em 2017, as vendas tendem a se manter em um número elevado em relação a anos anteriores.
 
 <img src="reports/vendas_mensal.png">
 
-5. Durante um dia, a maioria dos pedidos é feita entre 10h e 16h. Especialmente, as vendas diárias atingem um pico em volta das 11h e das 16h.
+7. Durante um dia, a maioria dos pedidos é feita entre 10h e 16h. Especialmente, as vendas diárias atingem um pico em volta das 11h e das 16h.
 
 <img src="reports/vendas_dia.png">
 
-6. As vendas tendem a decrescer com o passar da semana. Segunda-feira é o dia com o maior número de pedidos, enquanto sábado é o dia com o menor número.
+8. As vendas tendem a decrescer com o passar da semana. Segunda-feira é o dia com o maior número de pedidos, enquanto sábado é o dia com o menor número.
 
 <img src="reports/vendas_semana.png">
 
-7. Estados das regiões norte e nordeste pagam, em média, o maior frete por pedido. Especialmente, o frete pago na região norte é duas vezes maior que o frete pago na região sudeste (menor de todos). Da mesma forma, pedidos feitos nesses estados demoram, em média, mais de duas vezes o número de dias para serem entregues em relação a estados do sul e sudeste. Isso ocorre pois, a grande maioria dos vendedores concentram-se no estado de São Paulo e nos grandes centros.
+9. Estados das regiões norte e nordeste pagam, em média, o maior frete por pedido. Especialmente, o frete pago na região norte é duas vezes maior que o frete pago na região sudeste (menor de todos). Da mesma forma, pedidos feitos nesses estados demoram, em média, mais de duas vezes o número de dias para serem entregues em relação a estados do sul e sudeste. Isso ocorre pois, a grande maioria dos vendedores concentram-se no estado de São Paulo e nos grandes centros.
+
+<img src="reports/entrega_regiao.png">
+
+
+10. 75% dos pedidos possuem um review score de 4 ou 5. Ademais, isso se replica entre as regiões e estados do país, que apresentam um score médio em torno de 4. Isso indica uma boa satisfação dos clientes, no geral.
+
+<img src="reports/reviews_regiao.png">
+
+# 6. Próximos passos e aprendizado
+- A fim de tornar a análise ainda mais completa, pretendo incluir gráficos representando o mapa do Brasil e adicionar o dataset de marketing, que também é fornecido pela Olist e pode ser unido àqueles utilizados nesse projeto.
+- Nessa análise, aprendi muito sobre visualização, manipulação e limpeza de dados, uma vez que tentei aplicar boas práticas de storytelling, como eliminação de saturações e utilização de cores acessíveis, foi necessário unir várias tabelas realizando agregações e manipulações para obter informações coerentes, e havia vários outliers e categorias que podiam ser unidas/excluídas das variáveis numéricas e categóricas.
+- Finalmente, por se tratar de dados reais e um contexto real de uma empresa, o aprendizado foi enorme.
+
+# 7. Execute o projeto na sua máquina
+
+
+# 8. Dados utilizados
+Os dados foram obtidos do kaggle, no link: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_customers_dataset.csv
+
+# 9. Contato
+<b>Linkedin:</b> https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/
+
+<b>Github:</b> https://github.com/allmeidaapedro
+
+<b>Gmail:</b> pedrooalmeida.net@gmail.com
