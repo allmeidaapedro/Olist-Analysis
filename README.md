@@ -104,51 +104,51 @@ A abordagem completa dessas etapas, explicando o objetivo de cada decisão tomad
 # 7. Execute o projeto na sua máquina
 Para <b>executar os notebooks localmente</b>, certifique-se de ter instalado:
 
-Python 3.11.4
-pip (Gerenciador de pacotes Python)
-Git (Ferramenta de controle de versão)
-Jupyter (Executar os notebooks)
+- Python 3.11.4
+- pip (Gerenciador de pacotes Python)
+- Git (Ferramenta de controle de versão)
+- Jupyter (Executar os notebooks)
 
 Depois de ter isso instalado, abra um terminal em sua máquina local e execute os seguintes comandos:
 
-Clone o repositório:
+1. Clone o repositório:
 <pre>
 git clone https://github.com/allmeidaapedro/Olist-Analysis.git
 </pre>
-Navegue até o diretório do repositório clonado:
+
+2. Navegue até o diretório do repositório clonado:
 <pre>
 cd Olist-Analyss
 </pre>
-Crie um ambiente virtual:
+
+3. Crie um ambiente virtual:
 <pre>
 python -m venv venv
 </pre>
-Ative o Ambiente Virtual:
-Ative o ambiente virtual usado para isolar as dependências do projeto.
 
+4. Ative o Ambiente Virtual:
+- Ative o ambiente virtual usado para isolar as dependências do projeto.
 <pre>
 source venv/bin/activate  # No Windows, use 'venv\Scripts\activate'
 </pre>
-Instale as Dependências:
-Use o pip para instalar as dependências necessárias listadas no arquivo requirements.txt.
 
+5. Instale as Dependências:
+- Use o pip para instalar as dependências necessárias listadas no arquivo requirements.txt.
 <pre>
 pip install -r requirements.txt
 </pre>
-Inicie o Jupyter Notebook:
-Para iniciar o Jupyter Notebook, execute o seguinte comando:
 
+6. Inicie o Jupyter Notebook:
+- Para iniciar o Jupyter Notebook, execute o seguinte comando:
 <pre>
 jupyter notebook
 </pre>
-Isso abrirá uma nova aba ou janela em seu navegador da web com a interface do Jupyter Notebook.
+- Isso abrirá uma nova aba ou janela em seu navegador da web com a interface do Jupyter Notebook.
+- Abra e execute o Notebook em que foi feita a análise:
+- Você deverá ver o Notebook 'eda.ipynb'. Clique no notebook para abri-lo. Uma vez aberto, você pode executar células individuais ou o notebook inteiro clicando no botão "Run".
 
-Abra e execute o Notebook em que foi feita a análise:
-Você deverá ver o Notebook 'eda.ipynb'. Clique no notebook para abri-lo. Uma vez aberto, você pode executar células individuais ou o notebook inteiro clicando no botão "Run".
-
-Desative o Ambiente Virtual (Opcional):
-Quando terminar de trabalhar com o notebook e quiser sair do ambiente virtual, você pode desativá-lo usando o seguinte comando:
-
+7. Desative o Ambiente Virtual (Opcional):
+- Quando terminar de trabalhar com o notebook e quiser sair do ambiente virtual, você pode desativá-lo usando o seguinte comando:
 <pre>
 deactivate
 </pre>
